@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color:#EF505D;
+	font-family: "open_sansregular";
+    font-size: 16px;
+    line-height: 2em;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: #EF505D;
+}
+a:hover, a:active, a:focus {
+    text-decoration:underline;
+}
+img {
+    width: 100%;
+}
+.container {
+    display: flex;
+}
+header {
+    margin-bottom: 25px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "dosisextralight";
+    font-weight: normal;
+    line-height: 1.1;
+	text-transform: uppercase;
+}
+h2 {
+	font-family: "dosismedium";
+	font-size:17px;
+	letter-spacing:.3em;	
+	line-height:1.6em;
+	margin-bottom:60px;
+}
+blockquote {
+    padding: 0;
+    margin: 91px 0 0 0;
+    font-size: 29px;
+    border-left: none;
+    line-height: 2em;
+}
+.quote p {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.14em;
+    margin-top: 24px;
+}
+.white {
+	background-color:#fff;	
+}
+.about {
+    color: #fff;
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.about div {
+    flex: 1;
+    padding: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .about {
+        display: block;
+    }
+}
+header h1 {
+	margin-left:-9999px;	
+}
+header img {
+	max-width:330px;	
+	margin:0 auto;
+    width: 100%;
+}
+.logo {
+    max-width: 320px;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    padding: 30px;
+}
+.download {
+	margin:50px 0;
+    display: flex;
+    justify-content: center;
+}
+.download a:link, 
+.download a:visited {
+    background-color: #eee;
+    color: #EF505D;
+    padding: 20px 40px;
+    border-radius: 4px;
+    font-family: "open_sansregular";
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+}
+.download a:hover, 
+.download a:active,
+.download a:focus{
+    background-color: #fff;
+    text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+    .download a:link, 
+    .download a:visited {
+    }
+}
+.photos {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.photos:last-of-type {
+    padding-bottom: 30px;
+}
+.imageContainer {
+    flex:1;
+    margin: 10px 16px;
+}
+
+.behance {
+    background-color: #F2F2F2;
+    color: #333;
+    padding: 110px 0px 100px;
+    text-align: center;
+    margin-top: 20px;
+}	
+.behance img {
+	width:92px;	
+}
+.contactWrapper {
+    background-color: #FFF;
+    padding: 120px 0 130px;
+    text-align: center;
+    color: #888;
+}
+.contactWrapper h3 {
+    font-size: 1em;
+    letter-spacing: .2em;
+}
+
+.contact {
+	max-width:1000px;
+	margin:0 auto;	
+}
+.contact__info {
+    margin-bottom: 35px;
+}
+footer {
+    color: #DDD;
+	height:50px;
+    padding: 8px;
+    margin-top: 6px;
+    text-align: center;
+}
+.footer__link {
+    margin-top: -11px;
+}
+footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
+    color: white;
+}
+@media only screen and (max-width: 800px) {
+    .about {
+        display: block;
+    }
+    .photos {
+        flex-direction: column;
+    }
+    .logo {
+        max-width: 30%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+    }
+        blockquote {
+        padding: 0;
+        margin: 0;
+        font-size: 25px;
+        line-height: 1.8em;
+    }
+    h2 {
+        margin-bottom: 0;
+    }
+    .contactWrapper {
+        padding: 30px 0;
+    }
+    .behance {
+        padding: 30px 0;
+    }
+}
